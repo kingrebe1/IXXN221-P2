@@ -101,9 +101,9 @@ a:hover {
     animation-duration: 0.7s;
 }
 
-#intro:hover {
+/*#intro:hover {
 	background-color: blue;
-}
+}*/
 
 @keyframes slideIn {
 	0% {
@@ -121,6 +121,8 @@ a:hover {
 	color: black;
 	margin-left: 1%;
 	font-size: 50px;
+	margin-bottom: 0;
+	margin-top: 10%;
 }
 
 .projectInfo {
@@ -226,6 +228,7 @@ p {
 	margin-top: 3%;
 	display: flex;
 	justify-content: flex-start;
+	align-items: flex-start;
 	overflow: hidden;
     position: relative;
     animation-name: slideOdd;
@@ -254,6 +257,7 @@ p {
 	margin-top: 3%;
 	display: flex;
 	justify-content: flex-start;
+	align-items: flex-start;
 	overflow: hidden;
     position: relative;
     animation-name: slideEven;
@@ -273,10 +277,11 @@ p {
 }
 
 .preview {
-	height: auto;
 	width: 40%;
+	height: auto;
 	margin: 0.5%;
-}
+	object-fit: contain;
+	}
 
 #aboutme {
 	margin-top: 3%;
@@ -319,11 +324,9 @@ rect {
 	y: 80%;
 }
 
-/*rect:hover {
-	width: 55px;
-	height: 305px;
-	x: 94.5%;
-}*/
+rect:hover {
+	cursor: pointer;
+}
 
 #block2 {
 	fill:white;
@@ -353,7 +356,9 @@ rect {
 	color: blue;
 	margin-top: auto;
 	margin-bottom: auto;
-	margin-left: 10%;
+	margin-left: 5%;
+	margin-right: 5%;
+	font-weight: 700;
 }
 
 .fullProj {
@@ -364,4 +369,34 @@ rect {
 	margin-top: 3%;
 	border-style: solid;
 	border-color:black;
+}
+
+@media (max-width: 768px){
+	#intro {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.project_preview_odd {
+		flex-direction: column;
+	}
+
+	.project_preview_even {
+		flex-direction: column;
+	}
+
+	.preview {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.projectInfo {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.GoTo {
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
