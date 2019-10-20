@@ -1,9 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="main.js" defer></script>
+	<link rel="stylesheet" href="https://use.typekit.net/dno8xaq.css">
+	<title>Portfolio Home</title>
 </head>
-<body>
+
+<body id="index">
+	<nav id="nav1">
+		<a href="index.html"><img src="images/stickfig.png" alt="stick figure home button" id="home" onmouseenter="homeIcon()" onmouseleave="homeIcon2()"></a>
+		<div id="align">
+			<a href="page2.html" class="navLink" id="Projects">Projects</a>
+			<a href="page3.html" class="navLink">About</a>
+		</div>
+	</nav>
+
+	<svg>
+		<rect width="50" height="300" class="blocks" onclick="blocks()"/>
+		<rect width="50" height="50" class="blocks" id="block2"/>
+		<rect width="80" height="50" class="blocks" id="block3"/>
+		<rect width="80" height="80" class="blocks" id="block4"/>
+		<rect width="170" height="80" class="blocks" id="block5"/>
+	</svg>
+
+	<div id="intro">
+		<h1>Hello, I'm Rebecca.</h1>
+		<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+	</div>
 
 </body>
+
 </html>

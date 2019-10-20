@@ -1,0 +1,367 @@
+#index {
+	background-image: url(images/bg_test.png);
+	margin: 0;
+	background-size: 100%;
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+}
+
+#page2 {
+	background-image: url(images/bg_test.png);
+	margin: 0;
+	height: 200%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+}
+
+#page3 {
+	background-image: url(images/bg_test2.png);
+	margin: 0;
+	height: 200%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+}
+
+#myphoto {
+	max-width: 30%;
+	border: 1px;
+	border-style: solid;
+	border-color: black; 
+}
+
+#align {
+	display: flex;
+	justify-content: flex-end;
+
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	background-color: black;
+}
+
+#nav1 {
+	display: flex;
+	justify-content: space-between;
+	background-color: black;
+	overflow: hidden;
+    position: relative;
+    animation-name: slideLeft;
+    animation-duration: 0.7s;
+}
+
+@keyframes slideLeft {
+	0% {
+		right: -70%;
+		animation-timing-function: ease-in;
+	}
+
+	100% {
+		right: 0%;
+		animation-timing-function: ease-out;
+	}
+}
+
+a {
+	color: #ffffff;
+	font-family: courier-prime,monospace;
+	font-weight: 400;
+	font-style: normal;
+	margin-right: 1.5%;
+	margin-left: 1.5%;
+	margin-top: 1%;
+	font-size: 28px;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #FFD738;
+}
+
+.navLink {
+	margin-left: 5%;
+	margin-right:5%;
+}
+
+#intro {
+	width: 70%;
+	margin-left: 3%;
+	margin-top: 5%;
+	background-color: black;
+	border: 3px;
+	border-style: solid;
+	border-color: white;
+	transition: background-color 0.15s;
+	overflow: hidden;
+    position: relative;
+    animation-name: slideIn;
+    animation-duration: 0.7s;
+}
+
+#intro:hover {
+	background-color: blue;
+}
+
+@keyframes slideIn {
+	0% {
+		left: -70%;
+		animation-timing-function: ease-in;
+	}
+
+	100% {
+		left: 0%;
+		animation-timing-function: ease-out;
+	}
+}
+
+.projectLinks {
+	color: black;
+	margin-left: 1%;
+	font-size: 50px;
+}
+
+.projectInfo {
+	width: 60%;
+	display: block;
+	margin-left: 5%;
+	margin-top: 2%;
+}
+
+h1 {
+	font-family: courier-prime,monospace;
+	font-weight: 700;
+	font-style: normal;	
+	font-size: 36px;
+	color: #FFD738;
+	padding: 1%;
+	margin-left: 3%;
+}
+
+h2 {
+	font-family: courier-prime,monospace;
+	font-weight: 700;
+	font-style: normal;	
+	font-size: 28px;
+	color: #black;
+	padding: 1%;
+	margin-left: 3%;
+}
+
+h3 {
+	font-family: courier-prime,monospace;
+	font-weight: 700;
+	font-style: normal;	
+	font-size: 28px;
+	color: #black;
+	padding: 1%;
+	margin-left: 3%;
+}
+
+h4 {
+	font-family: courier-prime,monospace;
+	font-weight: 700;
+	font-style: normal;	
+	font-size: 28px;
+	color: #black;
+	padding: 1%;
+	margin-left: 3%;
+}
+
+h5 {
+	font-family: courier-prime,monospace;
+	font-weight: 700;
+	font-style: normal;	
+	font-size: 28px;
+	color: #black;
+	padding: 1%;
+	margin-left: 3%;
+}
+
+h6 {
+	font-family: courier-prime,monospace;
+	font-weight: 700;
+	font-style: normal;	
+	font-size: 28px;
+	color: #black;
+	padding: 1%;
+	margin-left: 3%;
+}
+
+p {
+	font-family: courier-prime,monospace;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 36px;
+	color: white;
+	padding: 1%;
+	margin-left: 3%;
+}
+
+.p3 {
+	color: black;
+	font-size: 24px;
+	margin: 0;
+}
+
+.flex {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.introlink {
+	margin-right: 3%;
+	margin-bottom: 4%;
+}
+
+.project_preview_odd {
+	background-color: white;
+	border-style: solid;
+	border-color: black;
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3%;
+	display: flex;
+	justify-content: flex-start;
+	overflow: hidden;
+    position: relative;
+    animation-name: slideOdd;
+    animation-duration: 0.5s;
+}
+
+@keyframes slideOdd {
+	0% {
+		left: -70%;
+		animation-timing-function: ease-in;
+	}
+
+	100% {
+		left: 0%;
+		animation-timing-function: ease-out;
+	}
+}
+
+.project_preview_even {
+	background-color: white;
+	border-style: solid;
+	border-color: black;
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3%;
+	display: flex;
+	justify-content: flex-start;
+	overflow: hidden;
+    position: relative;
+    animation-name: slideEven;
+    animation-duration: 0.5s;
+}
+
+@keyframes slideEven {
+	0% {
+		right: -70%;
+		animation-timing-function: ease-in;
+	}
+
+	100% {
+		right: 0%;
+		animation-timing-function: ease-out;
+	}
+}
+
+.preview {
+	height: auto;
+	width: 40%;
+	margin: 0.5%;
+}
+
+#aboutme {
+	margin-top: 3%;
+	margin-bottom: 3%;
+	margin-left: 10%;
+	margin-right: 10%;
+	display: flex;
+}
+
+hr {
+	border-top: 1.5px solid white;
+	border-bottom: 1.5px solid white;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 85%;
+}
+
+#home {
+	height: 40px;
+	margin-top: 0;
+	padding-top: 0;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.end {
+	padding: 1%;
+}
+
+svg {
+	width: 100%;
+	height: 90%;
+	position: absolute;
+}
+
+rect {
+	fill: red;
+	x: 95%;
+	y: 80%;
+}
+
+/*rect:hover {
+	width: 55px;
+	height: 305px;
+	x: 94.5%;
+}*/
+
+#block2 {
+	fill:white;
+	x: 10%;
+	y: 2%;
+}
+
+#block3 {
+	fill:black;
+	x: 40%;
+	y: 80%;
+}
+
+#block4 {
+	fill:black;
+	x: 80%;
+	y: 30%;
+}
+
+#block5 {
+	fill:black;
+	x: 5%;
+	y: 90%;
+}
+
+.GoTo {
+	color: blue;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 10%;
+}
+
+.fullProj {
+	background-color: white;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3%;
+	border-style: solid;
+	border-color:black;
+}
