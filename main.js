@@ -21,9 +21,4 @@ function blocks() {
 		document.getElementById('Projects').style.fontWeight='700';
 		document.getElementsByClassName('blocks')[i].style.fill='black';
 	}
-
-	// -change block colour clicked block
-	// -change block colour next block
-	// -set original block onclick to be nothing
-	// -set next block onclick to be blocks
 }
