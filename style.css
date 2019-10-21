@@ -400,7 +400,7 @@ rect:hover {
 .centeredLink {
 	display: block;
 	text-align: right;
-	color: red;
+	color: blue;
 	margin-right: 12%;
 	font-weight: 700;
 }
